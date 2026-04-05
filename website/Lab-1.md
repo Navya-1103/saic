@@ -108,6 +108,9 @@ Update my address
  ```
 
  ![image](./imgs/lab-1/step-24b.png)  
+ ![image](./imgs/lab-1/step-24b2.png)  
+ ![image](./imgs/lab-1/step-24b3.png)  
+ ![image](./imgs/lab-1/step-24b4.png)  
 
  If you are asked to input an email address, use 
  ``` 
@@ -119,7 +122,6 @@ Update my address
  ```
  yes
  ```
- 
 
 ## **Conclusion**
 
