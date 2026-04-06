@@ -19,7 +19,7 @@ We will make this agent more powerful with more tools and access to APIs, and en
 
     ![image](./imgs/lab-3a/step1.png)
 
-1. Click on the down arrow next to **Build**.  Then click on **Agent Builder**:
+1. Click on the drop down **Build**.
 
     ![image](./imgs/lab-3a/step2.png)
 
@@ -37,9 +37,10 @@ We will make this agent more powerful with more tools and access to APIs, and en
 
     ![image](./imgs/lab-3a/hr_step4.png)
 
-1. We are going to build a knowledge base for the agent. Scroll down the screen to the **Knowledge** section and click on "Choose knowledge".
+1. We are going to build a knowledge base for the agent. Scroll down the screen to the **Knowledge** section, click on "Choose knowledge" and select "New Knowledge".
 
     ![image](./imgs/lab-3a/hr_step_knowledge.png)
+    ![image](./imgs/lab-3a/hr_step_choose.png)
 
 1. Choose "Upload files" and click "Next".
 
@@ -49,8 +50,11 @@ We will make this agent more powerful with more tools and access to APIs, and en
 
     ![image](./imgs/lab-3a/hr_step6.png)
 
-1. Copy the following description into the **Description** section and click **Save**:
+1. Copy the following name, description into the **name** and **Description** section respectively and click **Save**:
 
+    ```
+    Employee Benefits
+    ```
     ```
     This knowledge base addresses the company's employee benefits, including parental leaves, pet policy, flexible work arrangements, and student loan repayment.
     ```

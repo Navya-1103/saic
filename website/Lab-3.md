@@ -18,7 +18,7 @@ Note that in this agent, you will be using some pre-imported tools (rather than 
 Step-by-step instructions
 =========================
 
-1.  Go to "Manage Agents"  
+1.  Go to "Build Agents"  
     ![image](./imgs/lab-4/hr_c_step7.png)
 1.  Click "Create Agent"
 1.  Type the following:  
@@ -32,6 +32,8 @@ Step-by-step instructions
 1.  Once the \[your\_initials\]\_employee\_healthcare\_agent has been created, scroll down to Toolset > Add Tool and add the following tools from local instance 
     ![image](./imgs/lab-4/hr_c_step10.png)
     ![image](./imgs/lab-4/hr_c_step10_2.png)
+  
+
 1.  Go back to "Manage Agents"
 1.  Click back into \[Your\_Initial\]\_HR\_Agent agent.
 
@@ -42,7 +44,7 @@ Step-by-step instructions
 1.  Click "Add from local instance"  
 
     ![image](./imgs/lab-4/hr_c_step14.png)
-1.  Add the \[Your Initials\]\_employee\_healthcare\_agent and \[Your Initials\]\_Employee Address as collaborators.
+1.  Add the \[Your Initials\]\_employee\_healthcare\_agent , \[Your Initials\]\_Employee Address as collaborators.
 
     ![image](./imgs/lab-4/hr_c_step_2agent.png)
 1.  Scroll up & update the agent **Description**:
@@ -57,7 +59,8 @@ Step-by-step instructions
 
     ![image](./imgs/lab-4/hr_c_step_addleave2.png)
 
-    ![image](./imgs/lab-4/hr_c_step_addleave3.png)
+    ![image](./imgs/lab-4/hr_c_step_addleave3.png)      
+
 1. Scroll down and update the agent **Behavior**
     ```
     Use your knowledge base to answer general questions about employee benefits. For any questions related to benefits/incentives that are unrelated to healthcare, refer to your KNOWLEDGE.
@@ -70,9 +73,9 @@ Step-by-step instructions
 
     After rerouting to any agent, be sure to return the agent's output in any subsequent query to the supervisor agent.
     ```
-1.  Next let's refresh the page and then test our end-to-end AskHR demo.
-1. Your results should mostly match the results in the [**demo\_video.mov**](https://ibm.box.com/s/0il7rzhoes6ii9jv12lun88he0kudnuc).<br>
-    **Note**: if you are prompted for any name or email address, use the email address below based on the location you are attending the workshop.
+1.  Next let's refresh the page and then test our end-to-end AskHR demo. You can use 
+    either preview or chat to test it out. 
+    **Note**: If you are prompted for any email address, use the email address below based on the location you are attending the workshop.
     
     | Location | email    |
     |----------|----------|
@@ -83,7 +86,7 @@ Step-by-step instructions
     I want to apply for childcare leave for a day.
     ```
     ```
-    jamie.tan@bestrun.sg
+    Jamie Tan
     ```
 
 * Feature demonstrated: call a prebuilt collaborator agent
