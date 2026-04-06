@@ -18,7 +18,7 @@ Note that in this agent, you will be using some pre-imported tools (rather than 
 Step-by-step instructions
 =========================
 
-1.  Go to "Build Agents"  
+1.  Go to the "Build Agents"  
     ![image](./imgs/lab-4/hr_c_step7.png)
 1.  Click "Create Agent"
 1.  Type the following:  
