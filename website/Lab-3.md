@@ -37,7 +37,7 @@ Step-by-step instructions
 1.  Go back to "Manage Agents"
 1.  Click back into \[Your\_Initial\]\_HR\_Agent agent.
 
-    ![image](./imgs/lab-4/hr_c_step11.png)
+    ![image](./imgs/lab-4/hr_c_step7.png)
 1.  Scroll down to Toolset > Agents and click "Add agent" button  
 
     ![image](./imgs/lab-4/hr_c_step13.png)
