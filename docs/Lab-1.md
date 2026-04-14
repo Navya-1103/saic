@@ -35,6 +35,8 @@ Each watsonx Orchestrate prebuilt agent and tool is connected to a service. Serv
 1. Go back to the hamburger menu and click on “Discover” again if you’ve navigated away.  
 2. On the search bar, search for “Employee Address” and hit Enter. Click on the Employee Address once the search result comes back.  
 
+**Important:** If you see multiple Employee Address, select one connected with **SAP.**
+
    ![image](./imgs/lab-1/step-6.png)  
 
 3. Once you clicked on the Employee Address, you will be presented with this view.  

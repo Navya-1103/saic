@@ -19,7 +19,7 @@ Step-by-step instructions
 =========================
 
 1.  Go to the "Build Agents"  
-    ![image](./imgs/lab-4/hr_c_step7.png)
+    ![image](./imgs/lab-4/hr_c_step11.png)
 1.  Click "Create Agent"
 1.  Type the following:  
     Name: \[Your Initials\]\_employee\_healthcare\_agent  
@@ -29,21 +29,27 @@ Step-by-step instructions
     You are able to answer questions around benefits provided by different plans, the status of a claim, and are able to help direct people to the nearest provider for a particular ailment.
     ```
     ![image](./imgs/lab-4/hr_c_step9.png) 
+
 1.  Once the \[your\_initials\]\_employee\_healthcare\_agent has been created, scroll down to Toolset > Add Tool and add the following tools from local instance 
+
     ![image](./imgs/lab-4/hr_c_step10.png)
+
     ![image](./imgs/lab-4/hr_c_step10_2.png)
   
 
 1.  Go back to "Manage Agents"
-1.  Click back into \[Your\_Initial\]\_HR\_Agent agent.
+1.  **Click back into \[Your\_Initial\]\_HR\_Agent agent.**
 
     ![image](./imgs/lab-4/hr_c_step7.png)
+
 1.  Scroll down to Toolset > Agents and click "Add agent" button  
 
     ![image](./imgs/lab-4/hr_c_step13.png)
+
 1.  Click "Add from local instance"  
 
     ![image](./imgs/lab-4/hr_c_step14.png)
+
 1.  Add the \[Your Initials\]\_employee\_healthcare\_agent , \[Your Initials\]\_Employee Address as collaborators.
 
     ![image](./imgs/lab-4/hr_c_step_2agent.png)
@@ -52,12 +58,18 @@ Step-by-step instructions
     You are an agent who handles employee HR queries. You provide short and crisp responses, keeping the output to 200 words or less. You can help users check their profile data, update their addresses within the SAP system.You can also reroute to an employee_healthcare_agent for answering questions related to employee health insurance policies, providers/doctors, medical claims.
     ```
 1. Select the Agent Style as "React".
+
     ![image](./imgs/lab-4/hr_agent_style.png)
 
-1. Now, we will add a whole new prebuilt agent as a collaborator. 
+1. Now, we will add a whole new prebuilt agent as a collaborator to your **\[Your\_Initial\]\_HR\_Agent agent.**. Ensure you select Leave management on SAP 
+
+    ![image](./imgs/lab-4/hr_c_step13.png)
+
     ![image](./imgs/lab-4/hr_c_step_addleave1.png)
 
+
     ![image](./imgs/lab-4/hr_c_step_addleave2.png)
+
 
     ![image](./imgs/lab-4/hr_c_step_addleave3.png)      
 
@@ -82,15 +94,28 @@ Step-by-step instructions
     | Singapore| jamie.tan@bestrun.sg  |
     | Malaysia | jamie.tan1@bestrun.sg |  
 
+
+**Test either one of the scenarios:**
+
     ```
-    I want to apply for childcare leave for a day.
+    I want to apply for annual leave
+    ```
+    ```
+    Jamie Tan
+    ```
+OR 
+
+    ```
+    I want to apply for sick leave
     ```
     ```
     Jamie Tan
     ```
 
-* Feature demonstrated: call a prebuilt collaborator agent
+If there are already existing leaves on the same day or if there are no more leave balances, the agent will ask for alternative leave dates or types (sick, annual, etc.) to apply for. 
 
+
+* Feature demonstrated: call a prebuilt collaborator agent
 
     ```
     I need to bring my son for a follow up appointment with his specialist for his ear infection. Can you remind me of what would be my copayment amount if I’m under HDHP in-network?
