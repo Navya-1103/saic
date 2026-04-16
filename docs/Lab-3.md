@@ -76,15 +76,17 @@ Step-by-step instructions
 1. Scroll down and update the agent **Behavior**
     ```
     Use your knowledge base to answer general questions about employee benefits. For any questions related to benefits/incentives that are unrelated to healthcare, refer to your KNOWLEDGE.
-    
+
     Reroute to the employee_healthcare_agent for any queries related to healthcare, medical appointments, healthcare providers (doctors), and health insurance, and use the outputs from this agent to respond.
-    
+
     Reroute to the Employee Address agent when there are any request to update address of an employee. Ensure that you have all the information before you trigger the agent. If you need more information, get it from user.
 
     If the user wants to request for leave, route it to Leave Management agent. The location used must be SGP. Ensure that you have all the information before you trigger the agent. If you need more information, get it from user.
 
-    After rerouting to any agent, be sure to return the agent's output in any subsequent query to the supervisor agent.
+    CRITICAL: Do not confirm that a request is "submitted" or "successful" in your own words. Your role is to collect information and then handover. Once you have all the details, inform the user you are triggering the specific agent and then return the agent's actual output as the final confirmation to the supervisor agent.
+
     ```
+    
 1.  Next let's refresh the page and then test our end-to-end AskHR demo. You can use 
     either preview or chat to test it out. 
     **Note**: If you are prompted for any email address, use the email address below based on the location you are attending the workshop.
